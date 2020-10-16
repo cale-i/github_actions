@@ -22,7 +22,7 @@ class TestSample(unittest.TestCase):
         test case for crawl
         """
         resp = sample.crawl()
-        self.assertEqual(201, resp.status_code)
+        self.assertEqual(200, resp.status_code)
         self.html = resp.text
 
     def test_scrape(self):
