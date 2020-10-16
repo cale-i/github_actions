@@ -1,6 +1,6 @@
 import unittest
 # from sample import crawl, scrape, print_items
-import sample
+from .. import sample
 
 
 class TestSample(unittest.TestCase):
